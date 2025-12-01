@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
+body {
+    background-color: white;
+    margin: 0;
+}
+.box{
+    margin: 150px;
+    border: 3px solid lightgray;
+    padding: 600px 300px;
+    border-radius: 2px;
+    padding-bottom: 55px;
+}
+.box1 h1{
+    font-family: "Dancing Script", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150px;
+    margin-top: -500px;
+}
+.box form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+
+}
+.box form input{
+    border: 3px solid lightgray;
+    border-radius: 5px;
+    font-size: 25px;
+    padding-left: 17px;
+}
+input[type="text"], input[type="password"]{
+    height: 70px;
+    width: 750px;
+    background-color: #efefef;
+    margin-top: -20px;
+}
+.button__first{
+    height: 70px;
+    width: 750px;
+    border-radius: 15px;
+    background-color: #83ADDE;
+    color: white;
+    border: none;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.box form p2{
+    font-size: 30px;
+    color: #777777;
+}
+.image_link{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.image_link a{
+    font-size: 35px;
+    text-decoration: none;
+    color: #104a81;
+}
+.last_button{
+    font-size: 25px;
+    text-decoration: none;
+    color: #2b679f;
+}
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid lightgray;
+    border-radius: 2px;
+    padding: 40px 300px;
+}
+.box2{
+    margin: 150px;
+}
+.box2 h3, a{
+    font-size: 30px;
+    text-decoration: none;
+    white-space: nowrap;
+    padding: 10px;
+}
+.box2 a{
+    color: #6b6bb6;
+}
+.box1, .box2{
+    margin-top: -120px;
+}
+.image_link img{
+    width: 40px;
+    height: 40px;
+}
+
