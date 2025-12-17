@@ -20,3 +20,6 @@
     height: 279.0108947753906px;
     border-radius: 10px;
 }
+.item>h3{
+    min-height: 50px;
+}
