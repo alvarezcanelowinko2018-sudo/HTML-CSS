@@ -1,0 +1,13 @@
+*{
+    margin:0;
+}
+.wrapper{
+    display:grid;
+    grid-template-rows:25vh 50vh 25vh;
+}
+header, footer{
+    background: #D9D9D9;
+}
+main{
+    background: #A4A4A4;
+}
